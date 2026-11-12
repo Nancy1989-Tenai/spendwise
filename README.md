@@ -54,3 +54,56 @@ This is a **personal budget tracker** web page built with semantic HTML and CSS.
 | Working Form Upgrade (30%) | `<form>` wrapper, `<select>` with 5 options, `<button type="button">`, all inputs have matching `id` attributes. |
 | Multimedia Elements (15%) | `<img>` with `src`/`alt`/`width`; `<iframe>` with `width`/`height`/`title`/`frameborder`. |
 | Advanced CSS Selectors (30%) | Five selectors applied: descendant, direct child, nth-child/even, :not(), and :focus. |
+
+# SpendWise
+
+## Project Description
+SpendWise is a budget tracker web app that lets users add expenses with a
+name, amount, category and date, and view them in a responsive table.
+[Adjust this to match exactly what your app does.]
+
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub (version control)
+- Netlify (hosting and continuous deployment)
+
+## GitHub Repository
+https://github.com/Nancy1989-Tenai/spendwise
+
+## Live Website
+https://spendwise-nancyt.netlify.app
+
+## Deployment Process Summary
+1. Checked that `index.html` was in the root of the repository and all
+   file paths were relative.
+2. Created a public GitHub repository named `spendwise` and uploaded the project.
+3. Signed up on Netlify with my GitHub account and authorized Netlify to
+   access my repositories.
+4. Imported the `spendwise` repository into Netlify, left the build command
+   empty and the publish directory as the root, and deployed.
+5. Renamed the default site name (`candid-bubblegum-1efa99`) to `spendwise-nancyt`.
+6. Tested continuous deployment by changing the page heading in GitHub.
+   Netlify automatically rebuilt and the live site updated.
+7. Tested all pages, styles, scripts and assets on the live site.
+
+## Continuous Deployment Test
+I changed [describe your change, e.g. the main heading] and committed it to
+GitHub. Netlify detected the commit and redeployed automatically, and the
+change appeared on the live site.
+
+## Challenges Encountered During Deployment
+- [Write what really happened, e.g. I was viewing GitHub while signed out and
+  had to sign in first.]
+- [e.g. I could not find the Deploy button, because the GitHub Install page
+  only gives permission and the Deploy button is on Netlify.]
+- [e.g. I had trouble finding the live link, and found it under Deploys →
+  Open production deploy.]
+
+## Lessons Learned
+- Deployment turns a local project into a live site others can visit.
+- Netlify redeploys automatically whenever I push to GitHub.
+- Relative file paths and correct file names are important for a site to
+  work online.
+- Testing the live URL, not just the local files, catches problems early.
